@@ -4,11 +4,9 @@
 
 <h2>Praktikum Section 2</h2>
 
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Date and Time</button>
+<p id="demo">Klik done</p>
 
-<p id="demo"></p>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Section selesai"'>Done</button>
 
 </body>
-</html> 
+</html>
